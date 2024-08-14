@@ -1,0 +1,27 @@
+# .readthedocs.yaml
+
+# Build configuration
+version: 2
+
+# Python image to use
+python:
+  version: 3.8
+  install:
+    - requirements: docs/requirements.txt
+
+# Build configuration
+sphinx:
+  configuration: docs/source/conf.py
+
+# Optionally define a list of Sphinx extensions to use
+# Uncomment and modify if needed
+# sphinx:
+#   extensions:
+#     - sphinx.ext.autodoc
+#     - sphinx.ext.napoleon
+#     - sphinx.ext.viewcode
+
+# Optionally define build options
+# Uncomment and modify if needed
+# build:
+#   format: html
